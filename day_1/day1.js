@@ -17,7 +17,6 @@ const main = () => {
             return currentCount;
         }
         const firstAndLastNumber = numbers.slice(0, 1) + numbers.slice(-1);
-        console.log(firstAndLastNumber);
 
         return currentCount + parseInt(firstAndLastNumber);
     }, 0);
